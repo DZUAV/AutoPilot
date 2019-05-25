@@ -1,0 +1,64 @@
+Dependencies for Project 'NoneQuadrotor', Target 'NoneQuadrotor': (DO NOT MODIFY !)
+F (..\Application\arducopter.c)(0x5BEC2792)(-c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers\LED -I ..\System\delay -I ..\System\sys -I ..\System\usart-ID:\NoneQuadrotor\Project\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F765xx -DSTM32F765xx-o ..\obj\arducopter.o --omf_browse ..\obj\arducopter.crf --depend ..\obj\arducopter.d)
+I (..\System\sys\sys.h)(0x57E4E552)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f7xx.h)(0x5721C150)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f765xx.h)(0x5721C152)
+I (..\System\sys\core_cm7.h)(0x5721C112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\System\sys\core_cmInstr.h)(0x5714A216)
+I (..\System\sys\cmsis_armcc.h)(0x5714A216)
+I (..\System\sys\core_cmFunc.h)(0x5714A216)
+I (..\System\sys\core_cmSimd.h)(0x5714A216)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\system_stm32f7xx.h)(0x5721C152)
+I (..\System\delay\delay.h)(0x57832187)
+I (..\Drivers\LED\drv_led.h)(0x5BEC212B)
+I (..\System\usart\usart.h)(0x5BEAD4CB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+F (..\System\delay\delay.c)(0x57832187)(-c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers\LED -I ..\System\delay -I ..\System\sys -I ..\System\usart-ID:\NoneQuadrotor\Project\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F765xx -DSTM32F765xx-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x57832187)
+I (..\SYSTEM\sys\sys.h)(0x57E4E552)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f7xx.h)(0x5721C150)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f765xx.h)(0x5721C152)
+I (..\SYSTEM\sys\core_cm7.h)(0x5721C112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x5714A216)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x5714A216)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\system_stm32f7xx.h)(0x5721C152)
+F (..\System\sys\sys.c)(0x57F879A3)(-c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers\LED -I ..\System\delay -I ..\System\sys -I ..\System\usart-ID:\NoneQuadrotor\Project\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F765xx -DSTM32F765xx-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x57E4E552)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f7xx.h)(0x5721C150)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f765xx.h)(0x5721C152)
+I (..\SYSTEM\sys\core_cm7.h)(0x5721C112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x5714A216)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x5714A216)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\system_stm32f7xx.h)(0x5721C152)
+F (..\System\usart\usart.c)(0x5BEAD8FF)(-c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers\LED -I ..\System\delay -I ..\System\sys -I ..\System\usart-ID:\NoneQuadrotor\Project\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F765xx -DSTM32F765xx-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x57E4E552)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f7xx.h)(0x5721C150)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f765xx.h)(0x5721C152)
+I (..\SYSTEM\sys\core_cm7.h)(0x5721C112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x5714A216)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x5714A216)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x5714A216)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\system_stm32f7xx.h)(0x5721C152)
+I (..\SYSTEM\usart\usart.h)(0x5BEAD4CB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+F (..\Drivers\LED\drv_led.c)(0x5BEC212C)(-c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers\LED -I ..\System\delay -I ..\System\sys -I ..\System\usart-ID:\NoneQuadrotor\Project\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F765xx -DSTM32F765xx-o ..\obj\drv_led.o --omf_browse ..\obj\drv_led.crf --depend ..\obj\drv_led.d)
+I (..\Drivers\LED\drv_led.h)(0x5BEC212B)
+I (..\System\sys\sys.h)(0x57E4E552)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f7xx.h)(0x5721C150)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f765xx.h)(0x5721C152)
+I (..\System\sys\core_cm7.h)(0x5721C112)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\System\sys\core_cmInstr.h)(0x5714A216)
+I (..\System\sys\cmsis_armcc.h)(0x5714A216)
+I (..\System\sys\core_cmFunc.h)(0x5714A216)
+I (..\System\sys\core_cmSimd.h)(0x5714A216)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\system_stm32f7xx.h)(0x5721C152)

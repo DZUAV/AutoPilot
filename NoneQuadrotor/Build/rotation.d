@@ -1,0 +1,9 @@
+..\build\rotation.o: ..\Maths\rotation.c
+..\build\rotation.o: ..\Maths\rotation.h
+..\build\rotation.o: ..\Maths\mathTool.h
+..\build\rotation.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\build\rotation.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\build\rotation.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\build\rotation.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+..\build\rotation.o: ..\Maths\vector3.h
+..\build\rotation.o: ..\Maths\mathtool.h

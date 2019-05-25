@@ -1,0 +1,10 @@
+--cpu Cortex-M7.fp.dp
+"..\build\arducopter.o"
+"..\build\delay.o"
+"..\build\sys.o"
+"..\build\usart.o"
+"..\build\drv_led.o"
+--strict --scatter "..\Build\ar.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\OBJ\ar.map" -o ..\Build\ar.axf

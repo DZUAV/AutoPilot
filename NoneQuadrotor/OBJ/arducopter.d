@@ -1,0 +1,15 @@
+..\obj\arducopter.o: ..\Application\arducopter.c
+..\obj\arducopter.o: ..\System\sys\sys.h
+..\obj\arducopter.o: C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f7xx.h
+..\obj\arducopter.o: C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f765xx.h
+..\obj\arducopter.o: ..\System\sys\core_cm7.h
+..\obj\arducopter.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\arducopter.o: ..\System\sys\core_cmInstr.h
+..\obj\arducopter.o: ..\System\sys\cmsis_armcc.h
+..\obj\arducopter.o: ..\System\sys\core_cmFunc.h
+..\obj\arducopter.o: ..\System\sys\core_cmSimd.h
+..\obj\arducopter.o: C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\system_stm32f7xx.h
+..\obj\arducopter.o: ..\System\delay\delay.h
+..\obj\arducopter.o: ..\Drivers\LED\drv_led.h
+..\obj\arducopter.o: ..\System\usart\usart.h
+..\obj\arducopter.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

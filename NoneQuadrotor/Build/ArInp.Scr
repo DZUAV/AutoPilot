@@ -1,0 +1,6 @@
+--create ..\Build\arducopter.lib
+..\build\arducopter.o
+..\build\delay.o
+..\build\sys.o
+..\build\usart.o
+..\build\drv_led.o

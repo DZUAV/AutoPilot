@@ -1,0 +1,249 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: aa 17260247@qq.com, aa, LIC=CRMQD-8YM61-SF1I0-BV6QH-M53II-G0T5D
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.21a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+D:\2018-11-15\12-15\NoneQuadrotor\Project\NoneQuadrotor.uvprojx
+Project File Date:  12/18/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'NoneQuadrotor'
+compiling copter.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Application\copter.c(85): warning:  #1-D: last line of file ends without a newline
+  ***********************************************************************************************************/
+..\Application\copter.c: 2 warnings, 0 errors
+compiling motor.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Application\motor.c: 1 warning, 0 errors
+compiling pid.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Algorithm\PID\pid.c: 1 warning, 0 errors
+compiling attitude.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Algorithm\ATTITUDE\attitude.c(25): warning:  #550-D: parameter "angle" was set but never used
+  void IMUupdate(float sample_half_T,Vector3f_t acc_data, Vector3f_t gyro_data,Vector3f_t mag_data,Vector3f_t angle) 
+..\Algorithm\ATTITUDE\attitude.c: 2 warnings, 0 errors
+compiling adrc.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Algorithm\ADRC\adrc.c(95): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	a1 = sqrtf(d*(d + 8.0 * fabsf(y)));                        //a1=sqrtf(d*(d+8*(|y|)))
+..\Algorithm\ADRC\adrc.c(171): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		if(input > 1e-6)
+..\Algorithm\ADRC\adrc.c(187): warning:  #1-D: last line of file ends without a newline
+  ***********************************************************************************************************/
+..\Algorithm\ADRC\adrc.c: 4 warnings, 0 errors
+compiling radio.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Application\radio.c(138): warning:  #550-D: parameter "radio_value" was set but never used
+  void set_control_in(Radio_input_value radio_value,int16_t val)
+..\Application\radio.c(153): warning:  #550-D: parameter "radio_value" was set but never used
+  void Radio_set_default_dead_zone(Radio_input_value radio_value,int16_t dzone)
+..\Application\radio.c(168): warning:  #550-D: parameter "radio_value" was set but never used
+  void Radio_set_range(Radio_input_value radio_value,uint16_t high)
+..\Application\radio.c(182): warning:  #550-D: parameter "radio_value" was set but never used
+  void Radio_set_angle(Radio_input_value radio_value,uint16_t angle)
+..\Application\radio.c(388): warning:  #1-D: last line of file ends without a newline
+  ***********************************************************************************************************************************************************************************/
+..\Application\radio.c: 6 warnings, 0 errors
+compiling scheduler.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Application\scheduler.c: 1 warning, 0 errors
+compiling arducopter.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Application\arducopter.c: 1 warning, 0 errors
+compiling sensor.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Application\sensor.c: 1 warning, 0 errors
+compiling ahrs_dcm.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Algorithm\DCM\ahrs_dcm.c(9): warning:  #1-D: last line of file ends without a newline
+  #include "copter.h"
+..\Algorithm\DCM\ahrs_dcm.c: 2 warnings, 0 errors
+compiling notice.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Application\notice.c(22): warning:  #1-D: last line of file ends without a newline
+  }
+..\Application\notice.c: 2 warnings, 0 errors
+compiling drv_ltr.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Drivers\RGBLED\drv_ltr.c: 1 warning, 0 errors
+compiling drv_spi.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Drivers\SPI\drv_spi.c(232): warning:  #177-D: variable "GPIO_Initure" was declared but never referenced
+      GPIO_InitTypeDef GPIO_Initure;
+..\Drivers\SPI\drv_spi.c: 2 warnings, 0 errors
+compiling drv_uart.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Drivers\UART\drv_uart.c(315): warning:  #1-D: last line of file ends without a newline
+  ***********************************************************************************************************/
+..\Drivers\UART\drv_uart.c: 2 warnings, 0 errors
+compiling drv_icm20689.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Drivers\IMU\drv_icm20689.c: 1 warning, 0 errors
+compiling drv_mpu6000.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Drivers\IMU\drv_mpu6000.c(110): warning:  #177-D: variable "mpu6000_acc_temp" was declared but never referenced
+  		int16_t mpu6000_acc_temp[3];
+..\Drivers\IMU\drv_mpu6000.c(111): warning:  #177-D: variable "mpu6000_gyro_temp" was declared but never referenced
+  		int16_t mpu6000_gyro_temp[3];
+..\Drivers\IMU\drv_mpu6000.c(166): warning:  #940-D: missing return statement at end of non-void function "MPU6000_WriteReg"
+  }
+..\Drivers\IMU\drv_mpu6000.c(189): warning:  #940-D: missing return statement at end of non-void function "MPU6000_ReadReg"
+  }
+..\Drivers\IMU\drv_mpu6000.c(309): warning:  #940-D: missing return statement at end of non-void function "SPI_MPU6000_WriteReg"
+  }
+..\Drivers\IMU\drv_mpu6000.c(427): warning:  #940-D: missing return statement at end of non-void function "SPI_MPU6000_ReadReg"
+  }	
+..\Drivers\IMU\drv_mpu6000.c: 7 warnings, 0 errors
+compiling drv_ist8310.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Drivers\IMU\drv_ist8310.c: 1 warning, 0 errors
+compiling drv_iic.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Drivers\IMU\drv_iic.c: 1 warning, 0 errors
+compiling drv_ms5611.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Drivers\IMU\drv_ms5611.c(191): warning:  #177-D: variable "baro_start" was declared but never referenced
+  	static u8 baro_start;
+..\Drivers\IMU\drv_ms5611.c(193): warning:  #177-D: variable "off2" was declared but never referenced
+    int32_t temperature, off2 = 0, sens2 = 0, delt;
+..\Drivers\IMU\drv_ms5611.c(193): warning:  #177-D: variable "sens2" was declared but never referenced
+    int32_t temperature, off2 = 0, sens2 = 0, delt;
+..\Drivers\IMU\drv_ms5611.c(195): warning:  #177-D: variable "alt_3" was declared but never referenced
+  	float alt_3;
+..\Drivers\IMU\drv_ms5611.c(202): warning:  #177-D: variable "sum_cnt" was declared but never referenced
+  	static u8 sum_cnt = BARO_CAL_CNT + 10;
+..\Drivers\IMU\drv_ms5611.c: 6 warnings, 0 errors
+compiling drv_icm20602.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Drivers\IMU\drv_icm20602.c: 1 warning, 0 errors
+compiling drv_bmi055.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Drivers\IMU\drv_bmi055.c(274): warning:  #1-D: last line of file ends without a newline
+  ***********************************************************************************************************/
+..\Drivers\IMU\drv_bmi055.c: 2 warnings, 0 errors
+compiling drv_sbus.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Drivers\RCIN\drv_sbus.c: 1 warning, 0 errors
+compiling drv_fm25v01g.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Drivers\RAM\drv_fm25v01g.c(201): warning:  #1-D: last line of file ends without a newline
+  ***********************************************************************************************************/
+..\Drivers\RAM\drv_fm25v01g.c: 2 warnings, 0 errors
+compiling drv_malloc.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Drivers\MALLOC\drv_malloc.c: 1 warning, 0 errors
+compiling stm32f765_it.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\System\stm32f765_it.c: 1 warning, 0 errors
+compiling drv_sdcard.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Drivers\SDCARD\drv_sdcard.c: 1 warning, 0 errors
+compiling drv_can.c...
+..\Drivers\CAN\drv_can.c(9): warning:  #1-D: last line of file ends without a newline
+  #include "copter.h"
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Drivers\CAN\drv_can.c: 2 warnings, 0 errors
+compiling drv_gps.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Drivers\GPS\drv_gps.c(566): warning:  #1-D: last line of file ends without a newline
+  ***********************************************************************************************************/
+..\Drivers\GPS\drv_gps.c: 2 warnings, 0 errors
+compiling diskio.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\System\FATFS\src\diskio.c(283): warning:  #940-D: missing return statement at end of non-void function "ff_memalloc"
+  }
+..\System\FATFS\src\diskio.c: 2 warnings, 0 errors
+compiling drv_buzzer.c...
+..\Drivers\BUZZER\drv_buzzer.c(9): warning:  #1-D: last line of file ends without a newline
+  #include "copter.h"
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Drivers\BUZZER\drv_buzzer.c: 2 warnings, 0 errors
+compiling drv_flash.c...
+..\Drivers\FLASH\drv_flash.c(9): warning:  #1-D: last line of file ends without a newline
+  #include "copter.h"
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Drivers\FLASH\drv_flash.c: 2 warnings, 0 errors
+compiling drv_ppm.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Drivers\RCIN\drv_ppm.c: 1 warning, 0 errors
+compiling systick.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\System\systick.c(16): warning:  #550-D: variable "fac_ms" was set but never used
+  static uint32_t fac_ms=0;		
+..\System\systick.c: 2 warnings, 0 errors
+compiling mavlink_usart_fifo.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Communication\mavlink\mavlink_usart_fifo.c: 1 warning, 0 errors
+compiling ano_protocol.c...
+..\Algorithm\DCM\ahrs_dcm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Communication\AnoProtocol\ano_protocol.c: 1 warning, 0 errors
+linking...
+Program Size: Code=21834 RO-data=546 RW-data=196 ZI-data=31527596  
+FromELF: creating hex file...
+"..\Build\arducopter.axf" - 0 Error(s), 68 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  D:\2018-11-15\12-15\NoneQuadrotor\Project\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:02:12
+</pre>
+</body>
+</html>

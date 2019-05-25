@@ -1,0 +1,12 @@
+..\obj\drv_led.o: ..\Drivers\LED\drv_led.c
+..\obj\drv_led.o: ..\Drivers\LED\drv_led.h
+..\obj\drv_led.o: ..\System\sys\sys.h
+..\obj\drv_led.o: C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f7xx.h
+..\obj\drv_led.o: C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f765xx.h
+..\obj\drv_led.o: ..\System\sys\core_cm7.h
+..\obj\drv_led.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\drv_led.o: ..\System\sys\core_cmInstr.h
+..\obj\drv_led.o: ..\System\sys\cmsis_armcc.h
+..\obj\drv_led.o: ..\System\sys\core_cmFunc.h
+..\obj\drv_led.o: ..\System\sys\core_cmSimd.h
+..\obj\drv_led.o: C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\system_stm32f7xx.h

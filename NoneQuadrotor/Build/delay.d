@@ -1,0 +1,13 @@
+..\build\delay.o: ..\System\delay\delay.c
+..\build\delay.o: ..\System\delay\delay.h
+..\build\delay.o: ..\System\sys\sys.h
+..\build\delay.o: C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f7xx.h
+..\build\delay.o: C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f765xx.h
+..\build\delay.o: ..\System\sys\core_cm7.h
+..\build\delay.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\build\delay.o: ..\System\sys\core_cmInstr.h
+..\build\delay.o: ..\System\sys\cmsis_armcc.h
+..\build\delay.o: ..\System\sys\core_cmFunc.h
+..\build\delay.o: ..\System\sys\core_cmSimd.h
+..\build\delay.o: C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include\system_stm32f7xx.h
+..\build\delay.o: ..\Drivers\LED\drv_led.h
